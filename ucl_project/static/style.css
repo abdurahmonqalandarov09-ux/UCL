@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(
+        135deg,
+        /* #080748, */
+        #080B35,
+        #0427c3
+    );
+    min-height: 100vh;
+    color: white;
+    font-family: "Manrope", sans-serif;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+    max-width: 900px;
+    margin: 20px auto;
+    
+    
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 280px;
+    flex-shrink: 0;
+}
+
+.menu a {
+    background-color: #080B35;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #263653;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #0232FF;
+    transform: translateX(8px);
+}
+
+
+
+.pic {
+    width: 350px;
+    flex-shrink: 0;
+}
+
+.pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.results{
+    border: 3px solid #080B35;
+    width: 40%;
+    background-color: #080B35;
+    text-align: center;
+    box-shadow: 0px 0px 3px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.standing{
+    border: 3px solid #080B35;
+    width: 40%;
+    background-color: #080B35;
+    text-align: center;
+    box-shadow: 0px 0px 3px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+
+
+.scorers{
+    border: 3px solid #080B35;
+    width: 40%;
+    background-color: #080B35;
+    text-align: center;
+    box-shadow: 0px 0px 3px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.assists{
+    border: 3px solid #080B35;
+    width: 40%;
+    background-color: #080B35;
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.news{
+    border: 3px solid #080B35;
+    width: 40%;
+    background-color: #080B35;
+    text-align: center;
+    box-shadow: 0px 0px 3px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.ttl{
+    font-size: 30px;
+    text-align: center;
+}

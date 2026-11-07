@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static "style.css" %}">
+</head>
+<body>
+    <div class="ttl">
+        <h1>{{title}}</h1>
+    </div>
+    <div class="main">
+
+    <div class="pic">
+        <img src="{% static 'images/UEFA_Champions_League_logo.png' %}" alt="UEFA">
+    </div>
+
+    <div class="menu">
+
+        <a href="/results/">Results</a>
+
+        <a href="/standings/">Teams Standings</a>
+
+        <a href="/scorers/">Top Scorers</a>
+
+        <a href="/assists/">Most Assists</a>
+
+        <a href="/news/">News</a>
+
+    </div>
+
+</div>
+</body>
+</html>

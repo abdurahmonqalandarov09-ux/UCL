@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(
+        135deg,
+        #080748,
+        #080B35,
+        #0427c3
+    );
+    min-height: 100vh;
+    color: white;
+    font-family: "Manrope", sans-serif;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.text{
+    width: 150px
+    border-right: 3px solid #080B35;
+}
+
+.extra{
+    display: flex;
+    gap: 50px;
+}
